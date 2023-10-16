@@ -176,17 +176,6 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="sudoku.js"></script>
         <script src="assets/js/app.js"></script>
-        <script>
-            for(i in document.getElementsByClassName("square")){
-	if(!document.getElementsByClassName("square")[i].value){
-		document.getElementsByClassName("square")[i].type = "number";
-		document.getElementsByClassName("square")[i].disabled = false;
-		document.getElementsByClassName("square")[i].max = 9;
-		document.getElementsByClassName("square")[i].min = 1;
-		document.getElementsByClassName("square")[i].setAttribute("inputmode","numeric")
-	}
-}
-        </script>
     </body>
 	<styles>
 		input::-webkit-outer-spin-button,
